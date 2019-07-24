@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E589C180-6829-42D9-A5E4-1CD1EC27DB15}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YunDingCombination</RootNamespace>
+    <AssemblyName>YunDingCombination</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CombinationType.cs" />
+    <Compile Include="IHero.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NeedHeros.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SelectedCombination.cs" />
+    <Compile Include="不详之刃.cs" />
+    <Compile Include="九尾妖狐.cs" />
+    <Compile Include="仙灵女巫.cs" />
+    <Compile Include="傲之追猎者.cs" />
+    <Compile Include="冰晶凤凰.cs" />
+    <Compile Include="冰霜女巫.cs" />
+    <Compile Include="剑魔.cs" />
+    <Compile Include="北地之怒.cs" />
+    <Compile Include="圣枪游侠.cs" />
+    <Compile Include="圣锤之毅.cs" />
+    <Compile Include="堕落天使.cs" />
+    <Compile Include="复仇焰魂.cs" />
+    <Compile Include="寒冰射手.cs" />
+    <Compile Include="崔斯特.cs" />
+    <Compile Include="影流之主.cs" />
+    <Compile Include="德玛西亚之力.cs" />
+    <Compile Include="惩戒之箭.cs" />
+    <Compile Include="无双剑姬.cs" />
+    <Compile Include="暗影猎手.cs" />
+    <Compile Include="暮光之眼.cs" />
+    <Compile Include="曙光女神.cs" />
+    <Compile Include="正义天使.cs" />
+    <Compile Include="死亡歌颂者.cs" />
+    <Compile Include="永猎双子.cs" />
+    <Compile Include="法外狂徒.cs" />
+    <Compile Include="海洋之灾.cs" />
+    <Compile Include="狂暴之心.cs" />
+    <Compile Include="狂野女猎手.cs" />
+    <Compile Include="疾风剑豪.cs" />
+    <Compile Include="痛苦之拥.cs" />
+    <Compile Include="祖安怒兽.cs" />
+    <Compile Include="离群之刺.cs" />
+    <Compile Include="荣耀行刑官.cs" />
+    <Compile Include="蒸汽机器人.cs" />
+    <Compile Include="虚空恐惧.cs" />
+    <Compile Include="虚空掠夺者.cs" />
+    <Compile Include="虚空行者.cs" />
+    <Compile Include="虚空遁地兽.cs" />
+    <Compile Include="蜘蛛女皇.cs" />
+    <Compile Include="血港魅影.cs" />
+    <Compile Include="诺克萨斯之手.cs" />
+    <Compile Include="诺克萨斯统领.cs" />
+    <Compile Include="弗雷尔卓德之心.cs" />
+    <Compile Include="赏金猎人.cs" />
+    <Compile Include="迷失之牙.cs" />
+    <Compile Include="邪恶小法师.cs" />
+    <Compile Include="铁铠冥魂.cs" />
+    <Compile Include="铸星龙王.cs" />
+    <Compile Include="雷霆咆哮.cs" />
+    <Compile Include="麦林炮手.cs" />
+    <Compile Include="龙血武姬.cs" />
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\阿卡丽.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\奥巴马.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\豹女.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\冰女.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\波比.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\不详.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\布隆.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\船长.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\大虫.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\德莱文.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\凤凰.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\盖伦.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\狗熊.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\寡妇.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\寒冰.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\狐狸.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\火男.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\机器人.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\剑姬.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\剑魔.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\劫.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\卡牌.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\卡萨丁.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\凯南.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\狼人.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\龙女.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\龙王.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\璐璐.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\莫甘娜.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\纳尔.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\男枪.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\诺手.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\女枪.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\派克.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\千珏.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\日女.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\慎.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\狮子狗.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\死歌.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\螳螂.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\天使.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\铁男.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\挖掘机.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\薇恩.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\维鲁斯.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\乌鸦.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\小法.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\小炮.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\亚索.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\蜘蛛.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\猪女.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Image\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\背景.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start_enable.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

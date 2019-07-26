@@ -21,5 +21,16 @@ namespace YunDingCombination
         {
             get { return Properties.Resources.大虫; }
         }
+
+
+        public int consumption
+        {
+            get { return 4; }
+        }
+
+        public string skill
+        {
+            get { return "主动：科加斯碎裂一片区域，对区域内的敌人造成伤害和晕眩效果"; }
+        }
     }
 }

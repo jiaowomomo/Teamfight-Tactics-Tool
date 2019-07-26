@@ -5,21 +5,21 @@ using System.Text;
 
 namespace YunDingCombination
 {
-    class 雷霆咆哮:IHero
+    class 暗裔剑魔 : IHero
     {
         public CombinationType ct
         {
-            get { return CombinationType.极地 | CombinationType.斗士; }
+            get { return CombinationType.恶魔 | CombinationType.剑士; }
         }
 
         public string name
         {
-            get { return "雷霆咆哮"; }
+            get { return "暗裔剑魔"; }
         }
 
         public System.Drawing.Bitmap image
         {
-            get { return Properties.Resources.狗熊; }
+            get { return Properties.Resources.剑魔; }
         }
 
 
@@ -30,7 +30,7 @@ namespace YunDingCombination
 
         public string skill
         {
-            get { return "主动：沃利贝尔的攻击会在敌人之间弹射"; }
+            get { return "主动：亚托克斯顺劈他面前的区域，对区域内的敌人造成伤害"; }
         }
     }
 }

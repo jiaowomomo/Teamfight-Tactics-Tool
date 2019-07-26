@@ -21,5 +21,16 @@ namespace YunDingCombination
         {
             get { return Properties.Resources.铁男; }
         }
+
+
+        public int consumption
+        {
+            get { return 1; }
+        }
+
+        public string skill
+        {
+            get { return "主动：莫德凯撒朝他前方挥舞他的权杖，沿直线造成伤害"; }
+        }
     }
 }

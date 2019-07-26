@@ -21,5 +21,16 @@ namespace YunDingCombination
         {
             get { return Properties.Resources.波比; }
         }
+
+
+        public int consumption
+        {
+            get { return 3; }
+        }
+
+        public string skill
+        {
+            get { return "主动：波比砸下她的铁锤，来震开附近的敌人"; }
+        }
     }
 }

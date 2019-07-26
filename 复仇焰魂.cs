@@ -21,5 +21,16 @@ namespace YunDingCombination
         {
             get { return Properties.Resources.火男; }
         }
+
+
+        public int consumption
+        {
+            get { return 4; }
+        }
+
+        public string skill
+        {
+            get { return "主动：布兰德发射一团会弹射的火球，对命中的所有敌人造成伤害"; }
+        }
     }
 }

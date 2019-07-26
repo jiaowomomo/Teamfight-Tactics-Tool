@@ -21,5 +21,16 @@ namespace YunDingCombination
         {
             get { return Properties.Resources.璐璐; }
         }
+
+
+        public int consumption
+        {
+            get { return 2; }
+        }
+
+        public string skill
+        {
+            get { return "主动：璐璐为一名友军提供额外生命值，并击飞该友军附近的敌人"; }
+        }
     }
 }

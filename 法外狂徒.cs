@@ -21,5 +21,16 @@ namespace YunDingCombination
         {
             get { return Properties.Resources.男枪; }
         }
+
+
+        public int consumption
+        {
+            get { return 1; }
+        }
+
+        public string skill
+        {
+            get { return "被动：格雷福斯的攻击对附近的敌人造成溅射伤害"; }
+        }
     }
 }

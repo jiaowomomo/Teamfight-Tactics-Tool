@@ -21,5 +21,16 @@ namespace YunDingCombination
         {
             get { return Properties.Resources.船长; }
         }
+
+
+        public int consumption
+        {
+            get { return 3; }
+        }
+
+        public string skill
+        {
+            get { return "主动：普朗克周期性地制造火药桶。在施放时，普朗克会引爆火药桶来伤害附近的敌人"; }
+        }
     }
 }

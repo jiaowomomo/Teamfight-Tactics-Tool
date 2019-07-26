@@ -21,5 +21,16 @@ namespace YunDingCombination
         {
             get { return Properties.Resources.狼人; }
         }
+
+
+        public int consumption
+        {
+            get { return 1; }
+        }
+
+        public string skill
+        {
+            get { return "主动：沃里克扑向生命值最低的敌人，造成伤害和晕眩效果。技能附带普攻特效"; }
+        }
     }
 }

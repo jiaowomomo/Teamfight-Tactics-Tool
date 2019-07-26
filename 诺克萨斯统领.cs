@@ -21,5 +21,16 @@ namespace YunDingCombination
         {
             get { return Properties.Resources.乌鸦; }
         }
+
+
+        public int consumption
+        {
+            get { return 5; }
+        }
+
+        public string skill
+        {
+            get { return "主动：斯维因变形，可从附近的所有敌人那里吸取生命值"; }
+        }
     }
 }

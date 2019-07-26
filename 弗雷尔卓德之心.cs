@@ -21,5 +21,16 @@ namespace YunDingCombination
         {
             get { return Properties.Resources.布隆; }
         }
+
+
+        public int consumption
+        {
+            get { return 2; }
+        }
+
+        public string skill
+        {
+            get { return "主动：布隆创造一道屏障来格挡所有即将到来的伤害"; }
+        }
     }
 }

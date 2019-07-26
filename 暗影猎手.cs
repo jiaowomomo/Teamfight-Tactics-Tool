@@ -21,5 +21,16 @@ namespace YunDingCombination
         {
             get { return Properties.Resources.薇恩; }
         }
+
+
+        public int consumption
+        {
+            get { return 1; }
+        }
+
+        public string skill
+        {
+            get { return "被动：薇恩每第三次攻击造成基于目标最大生命值的额外真实伤害"; }
+        }
     }
 }

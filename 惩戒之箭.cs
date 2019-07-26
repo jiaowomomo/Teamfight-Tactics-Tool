@@ -21,5 +21,16 @@ namespace YunDingCombination
         {
             get { return Properties.Resources.维鲁斯; }
         }
+
+
+        public int consumption
+        {
+            get { return 2; }
+        }
+
+        public string skill
+        {
+            get { return "主动：韦鲁斯引导并射出一支箭，对一条直线上的所有敌人造成伤害"; }
+        }
     }
 }

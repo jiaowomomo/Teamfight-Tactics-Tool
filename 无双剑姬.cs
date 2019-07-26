@@ -21,5 +21,16 @@ namespace YunDingCombination
         {
             get { return Properties.Resources.剑姬; }
         }
+
+
+        public int consumption
+        {
+            get { return 1; }
+        }
+
+        public string skill
+        {
+            get { return "主动：菲奥娜变得免疫伤害和技能。在短暂的延迟后，她会对距离最近的敌人造成伤害和晕眩效果"; }
+        }
     }
 }

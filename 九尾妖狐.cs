@@ -21,5 +21,16 @@ namespace YunDingCombination
         {
             get { return Properties.Resources.狐狸; }
         }
+
+
+        public int consumption
+        {
+            get { return 2; }
+        }
+
+        public string skill
+        {
+            get { return "主动：阿狸沿直线发射一颗会折返的法球，对沿途的敌人造成伤害"; }
+        }
     }
 }

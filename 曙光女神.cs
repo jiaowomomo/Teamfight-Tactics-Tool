@@ -21,5 +21,16 @@ namespace YunDingCombination
         {
             get { return Properties.Resources.日女; }
         }
+
+
+        public int consumption
+        {
+            get { return 4; }
+        }
+
+        public string skill
+        {
+            get { return "主动：蕾欧娜召唤一道天降的太阳光束，对其中心的敌人造成晕眩效果并对其内的敌人造成伤害"; }
+        }
     }
 }

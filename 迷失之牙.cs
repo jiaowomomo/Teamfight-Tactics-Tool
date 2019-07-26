@@ -21,5 +21,16 @@ namespace YunDingCombination
         {
             get { return Properties.Resources.纳尔; }
         }
+
+
+        public int consumption
+        {
+            get { return 4; }
+        }
+
+        public string skill
+        {
+            get { return "主动：纳尔变形并跳到距离最远的敌人身后，同时伤害并将敌人向后猛推"; }
+        }
     }
 }

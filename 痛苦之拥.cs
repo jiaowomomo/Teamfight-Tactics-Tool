@@ -21,5 +21,16 @@ namespace YunDingCombination
         {
             get { return Properties.Resources.寡妇; }
         }
+
+
+        public int consumption
+        {
+            get { return 3; }
+        }
+
+        public string skill
+        {
+            get { return "主动：伊芙琳对距离最近的3名敌人造成伤害，同时自身传送到远处"; }
+        }
     }
 }

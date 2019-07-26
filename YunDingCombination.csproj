@@ -45,6 +45,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CombinationType.cs" />
+    <Compile Include="EquipmentListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EquipmentListForm.Designer.cs">
+      <DependentUpon>EquipmentListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HerosListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HerosListForm.Designer.cs">
+      <DependentUpon>HerosListForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="IHero.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -56,13 +68,14 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SelectedCombination.cs" />
+    <Compile Include="TriggerEffect.cs" />
     <Compile Include="不详之刃.cs" />
     <Compile Include="九尾妖狐.cs" />
     <Compile Include="仙灵女巫.cs" />
     <Compile Include="傲之追猎者.cs" />
     <Compile Include="冰晶凤凰.cs" />
     <Compile Include="冰霜女巫.cs" />
-    <Compile Include="剑魔.cs" />
+    <Compile Include="暗裔剑魔.cs" />
     <Compile Include="北地之怒.cs" />
     <Compile Include="圣枪游侠.cs" />
     <Compile Include="圣锤之毅.cs" />
@@ -107,6 +120,12 @@
     <Compile Include="雷霆咆哮.cs" />
     <Compile Include="麦林炮手.cs" />
     <Compile Include="龙血武姬.cs" />
+    <EmbeddedResource Include="EquipmentListForm.resx">
+      <DependentUpon>EquipmentListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HerosListForm.resx">
+      <DependentUpon>HerosListForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -291,6 +310,138 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\start_enable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\救赎.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\巨人腰带.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\巨型九头蛇.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\狂徒铠甲.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\离子火花.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\灵风.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\龙爪.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\卢安娜的飓风.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\卢登的回声.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\灭世者的死亡之帽.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\莫雷洛秘典.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\女神之泪.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\破败王者之刃.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\破刃者.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\骑士之誓.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\神圣之剑.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\守护天使.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\朔极之矛.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\斯塔缇克电刃.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\锁子甲.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\无尽之刃.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\无用大棒.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\蜥蜴长老之赐.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\饮血剑.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\幽梦之灵.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\悠米.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\自然之力.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\诅咒之刃.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\暗裔.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\暴风大剑.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\冰霜之锤.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\冰霜之心.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\铲子.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\沉默之刃.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\炽天使之拥.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\反曲之弓.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\负极斗篷.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\钢铁烈焰之匣.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\鬼索的狂暴之刃.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\海克斯科技枪刃.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\幻影之舞.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\基克的先驱.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\疾射火炮.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\荆棘之甲.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -21,5 +21,16 @@ namespace YunDingCombination
         {
             get { return Properties.Resources.女枪; }
         }
+
+
+        public int consumption
+        {
+            get { return 5; }
+        }
+
+        public string skill
+        {
+            get { return "主动： 厄运小姐呈锥形引导并发射若干波子弹"; }
+        }
     }
 }

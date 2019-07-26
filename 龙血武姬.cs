@@ -21,5 +21,16 @@ namespace YunDingCombination
         {
             get { return Properties.Resources.龙女; }
         }
+
+
+        public int consumption
+        {
+            get { return 3; }
+        }
+
+        public string skill
+        {
+            get { return "主动：希瓦娜突进到远处并变形。在变形状态下，希瓦娜的攻击变为远程并且会使地面燃烧"; }
+        }
     }
 }

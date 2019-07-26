@@ -21,5 +21,16 @@ namespace YunDingCombination
         {
             get { return Properties.Resources.机器人; }
         }
+
+
+        public int consumption
+        {
+            get { return 2; }
+        }
+
+        public string skill
+        {
+            get { return "主动：布里茨将距离最远的敌人拉到他面前"; }
+        }
     }
 }

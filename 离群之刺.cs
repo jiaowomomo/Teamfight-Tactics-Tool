@@ -21,5 +21,16 @@ namespace YunDingCombination
         {
             get { return Properties.Resources.阿卡丽; }
         }
+
+
+        public int consumption
+        {
+            get { return 4; }
+        }
+
+        public string skill
+        {
+            get { return "主动：阿卡丽朝她前方掷出手里剑，造成伤害"; }
+        }
     }
 }

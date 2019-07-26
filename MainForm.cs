@@ -57,6 +57,7 @@ namespace YunDingCombination
             m_listAttribute.Add(label1);
             m_listAttribute.Add(label2);
             m_listAttribute.Add(label3);
+            m_listAttribute.Add(linkLabel1);
         }
 
         private void AddHeros()
@@ -77,7 +78,7 @@ namespace YunDingCombination
             m_listHero.Add(new 海洋之灾());
             m_listHero.Add(new 寒冰射手());
             m_listHero.Add(new 疾风剑豪());
-            m_listHero.Add(new 剑魔());
+            m_listHero.Add(new 暗裔剑魔());
             m_listHero.Add(new 九尾妖狐());
             m_listHero.Add(new 狂暴之心());
             m_listHero.Add(new 狂野女猎手());
@@ -145,10 +146,11 @@ namespace YunDingCombination
 
         private void RefreshSelectedCombination()
         {
-            listBox1.Items.Clear();
+            richTextBox1.Clear();
             for (int i = 0; i < m_listCombination.Count; i++)
             {
-                listBox1.Items.Add(m_listCombination[i].nCount.ToString() + m_listCombination[i].ct.ToString());
+                richTextBox1.AppendText(m_listCombination[i].nCount.ToString() + m_listCombination[i].ct.ToString() + "\r\n");
+                richTextBox1.AppendText(TriggerEffect.effect[m_listCombination[i].nCount.ToString() + m_listCombination[i].ct.ToString()] + "\r\n");
             }
         }
 
@@ -306,6 +308,36 @@ namespace YunDingCombination
                 m_listAllHeros.Add(nh);
             }
             RefreshNeedCombination();
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            EquipmentListForm el = new EquipmentListForm();
+            el.Show();
+        }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            HerosListForm hl = new HerosListForm(m_listHero);
+            hl.Show();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            foreach (Control ctl in this.Controls)
+            {
+                if (ctl is GroupBox)
+                {
+                    foreach (Control ctli in ((GroupBox)ctl).Controls)
+                    {
+                        if (ctli is CheckBox)
+                        {
+                            ((CheckBox)ctli).Checked = false;
+                        }
+                    }
+                }
+            }
+            panel3_Click(null, new EventArgs());
         }
     }
 }

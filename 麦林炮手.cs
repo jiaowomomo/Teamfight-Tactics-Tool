@@ -21,5 +21,16 @@ namespace YunDingCombination
         {
             get { return Properties.Resources.小炮; }
         }
+
+
+        public int consumption
+        {
+            get { return 1; }
+        }
+
+        public string skill
+        {
+            get { return "主动：崔丝塔娜将一颗炸弹放置到她的当前目标的身上，并在3次攻击后引爆该炸弹，来伤害附近的敌人"; }
+        }
     }
 }

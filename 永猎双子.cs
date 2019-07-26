@@ -21,5 +21,16 @@ namespace YunDingCombination
         {
             get { return Properties.Resources.千珏; }
         }
+
+
+        public int consumption
+        {
+            get { return 4; }
+        }
+
+        public string skill
+        {
+            get { return "主动：千珏创造一个领域来环绕自身，可预防友军阵亡"; }
+        }
     }
 }

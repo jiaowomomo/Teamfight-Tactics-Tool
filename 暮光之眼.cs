@@ -21,5 +21,16 @@ namespace YunDingCombination
         {
             get { return Properties.Resources.慎; }
         }
+
+
+        public int consumption
+        {
+            get { return 2; }
+        }
+
+        public string skill
+        {
+            get { return "主动：慎创造一个领域来环绕自身，允许友军闪避所有攻击"; }
+        }
     }
 }

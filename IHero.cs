@@ -6,11 +6,12 @@ using System.Text;
 
 namespace YunDingCombination
 {
-    interface IHero
+    public interface IHero
     {
         CombinationType ct { get; }
         string name { get; }
-
         Bitmap image { get; }
+        int consumption { get; }
+        string skill { get; }
     }
 }

@@ -21,5 +21,16 @@ namespace YunDingCombination
         {
             get { return Properties.Resources.凯南; }
         }
+
+
+        public int consumption
+        {
+            get { return 3; }
+        }
+
+        public string skill
+        {
+            get { return "主动：凯南召唤一阵风暴来环绕自身，对其内的敌人造成伤害和晕眩效果"; }
+        }
     }
 }

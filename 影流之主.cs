@@ -21,5 +21,16 @@ namespace YunDingCombination
         {
             get { return Properties.Resources.劫; }
         }
+
+
+        public int consumption
+        {
+            get { return 2; }
+        }
+
+        public string skill
+        {
+            get { return "主动：劫沿直线扔出一枚手里剑，对沿途的敌人造成伤害"; }
+        }
     }
 }

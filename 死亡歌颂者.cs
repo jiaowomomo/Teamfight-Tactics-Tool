@@ -21,5 +21,16 @@ namespace YunDingCombination
         {
             get { return Properties.Resources.死歌; }
         }
+
+
+        public int consumption
+        {
+            get { return 5; }
+        }
+
+        public string skill
+        {
+            get { return "主动：卡尔萨斯在一段长时间的引导后对随机数量的敌人造成伤害"; }
+        }
     }
 }

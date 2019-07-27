@@ -1,0 +1,10 @@
+F:\工作\软件编程\研发软件\YunDingCombination\YunDingCombination\bin\Debug\YunDingCombination.exe
+F:\工作\软件编程\研发软件\YunDingCombination\YunDingCombination\bin\Debug\YunDingCombination.pdb
+F:\工作\软件编程\研发软件\YunDingCombination\YunDingCombination\obj\Debug\YunDingCombination.Properties.Resources.resources
+F:\工作\软件编程\研发软件\YunDingCombination\YunDingCombination\obj\Debug\YunDingCombination.csproj.GenerateResource.Cache
+F:\工作\软件编程\研发软件\YunDingCombination\YunDingCombination\obj\Debug\YunDingCombination.exe
+F:\工作\软件编程\研发软件\YunDingCombination\YunDingCombination\obj\Debug\YunDingCombination.pdb
+F:\工作\软件编程\研发软件\YunDingCombination\YunDingCombination\obj\Debug\YunDingCombination.MainForm.resources
+F:\工作\软件编程\研发软件\YunDingCombination\YunDingCombination\obj\Debug\YunDingCombination.csprojResolveAssemblyReference.cache
+F:\工作\软件编程\研发软件\YunDingCombination\YunDingCombination\obj\Debug\YunDingCombination.EquipmentListForm.resources
+F:\工作\软件编程\研发软件\YunDingCombination\YunDingCombination\obj\Debug\YunDingCombination.HerosListForm.resources

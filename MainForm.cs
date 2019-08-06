@@ -58,6 +58,7 @@ namespace YunDingCombination
             m_listAttribute.Add(label2);
             m_listAttribute.Add(label3);
             m_listAttribute.Add(linkLabel1);
+            m_listAttribute.Add(linkLabel2);
         }
 
         private void AddHeros()

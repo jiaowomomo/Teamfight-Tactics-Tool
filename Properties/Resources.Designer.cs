@@ -19,7 +19,7 @@ namespace YunDingCombination.Properties {
     // 类通过类似于 ResGen 或 Visual Studio 的工具自动生成的。
     // 若要添加或移除成员，请编辑 .ResX 文件，然后重新运行 ResGen
     // (以 /str 作为命令选项)，或重新生成 VS 项目。
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -47,7 +47,7 @@ namespace YunDingCombination.Properties {
         }
         
         /// <summary>
-        ///   使用此强类型资源类，为所有资源查找
+        ///   重写当前线程的 CurrentUICulture 属性
         ///   重写当前线程的 CurrentUICulture 属性。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -206,6 +206,16 @@ namespace YunDingCombination.Properties {
         internal static System.Drawing.Bitmap 卡萨丁 {
             get {
                 object obj = ResourceManager.GetObject("卡萨丁", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 卡蜜尔 {
+            get {
+                object obj = ResourceManager.GetObject("卡蜜尔", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -533,6 +543,16 @@ namespace YunDingCombination.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap 杰斯 {
+            get {
+                object obj = ResourceManager.GetObject("杰斯", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap 死歌 {
             get {
                 object obj = ResourceManager.GetObject("死歌", resourceCulture);
@@ -843,6 +863,16 @@ namespace YunDingCombination.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap 蔚 {
+            get {
+                object obj = ResourceManager.GetObject("蔚", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap 薇恩 {
             get {
                 object obj = ResourceManager.GetObject("薇恩", resourceCulture);
@@ -916,6 +946,16 @@ namespace YunDingCombination.Properties {
         internal static System.Drawing.Bitmap 负极斗篷 {
             get {
                 object obj = ResourceManager.GetObject("负极斗篷", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 金克丝 {
+            get {
+                object obj = ResourceManager.GetObject("金克丝", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

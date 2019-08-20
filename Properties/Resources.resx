@@ -163,6 +163,9 @@
   <data name="卡萨丁" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\卡萨丁.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="卡蜜尔" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\卡密尔.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="卢安娜的飓风" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\卢安娜的飓风.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -259,6 +262,9 @@
   <data name="机器人" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\机器人.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="杰斯" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\杰斯.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="死歌" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\死歌.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -352,6 +358,9 @@
   <data name="莫雷洛秘典" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\莫雷洛秘典.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="蔚" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\蔚.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="薇恩" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\薇恩.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -375,6 +384,9 @@
   </data>
   <data name="负极斗篷" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\负极斗篷.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="金克丝" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\金克丝.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="钢铁烈焰之匣" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\钢铁烈焰之匣.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

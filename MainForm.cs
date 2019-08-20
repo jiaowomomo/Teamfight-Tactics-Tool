@@ -53,6 +53,7 @@ namespace YunDingCombination
             m_listAttribute.Add(groupBox21);
             m_listAttribute.Add(groupBox22);
             m_listAttribute.Add(groupBox23);
+            m_listAttribute.Add(groupBox24);
 
             m_listAttribute.Add(label1);
             m_listAttribute.Add(label2);
@@ -114,6 +115,10 @@ namespace YunDingCombination
             m_listHero.Add(new 蜘蛛女皇());
             m_listHero.Add(new 铸星龙王());
             m_listHero.Add(new 祖安怒兽());
+            m_listHero.Add(new 卡蜜尔());
+            m_listHero.Add(new 杰斯());
+            m_listHero.Add(new 蔚());
+            m_listHero.Add(new 金克丝());
         }
 
         private void checkBox_CheckedChanged(object sender, EventArgs e)

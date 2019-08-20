@@ -39,7 +39,7 @@ namespace YunDingCombination
                         pb.MouseDown += pb_MouseDown;
                         sb.Clear();
                         sb.Append(m_listHeros[10 * i + j].name + "\r\n消耗：" + m_listHeros[10 * i + j].consumption.ToString() + "\r\n种族+职业：");
-                        for (int k = 0; k < 23; k++)
+                        for (int k = 0; k < 24; k++)
                         {
                             if (((int)m_listHeros[10 * i + j].ct & (int)Math.Pow(2, k)) == (int)Math.Pow(2, k))
                             {
@@ -92,7 +92,7 @@ namespace YunDingCombination
                 //获取所有不同的特质
                 for (int i = 0; i < m_listSelectedHeros.Count; i++)
                 {
-                    for (int k = 0; k < 23; k++)
+                    for (int k = 0; k < 24; k++)
                     {
                         if (((int)m_listSelectedHeros[i].ct & (int)Math.Pow(2, k)) == (int)Math.Pow(2, k))
                         {

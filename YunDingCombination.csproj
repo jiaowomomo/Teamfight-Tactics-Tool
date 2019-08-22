@@ -75,6 +75,7 @@
     <Compile Include="傲之追猎者.cs" />
     <Compile Include="冰晶凤凰.cs" />
     <Compile Include="冰霜女巫.cs" />
+    <Compile Include="卡蜜尔.cs" />
     <Compile Include="暗裔剑魔.cs" />
     <Compile Include="北地之怒.cs" />
     <Compile Include="圣枪游侠.cs" />
@@ -90,6 +91,7 @@
     <Compile Include="暗影猎手.cs" />
     <Compile Include="暮光之眼.cs" />
     <Compile Include="曙光女神.cs" />
+    <Compile Include="杰斯.cs" />
     <Compile Include="正义天使.cs" />
     <Compile Include="死亡歌颂者.cs" />
     <Compile Include="永猎双子.cs" />
@@ -103,6 +105,7 @@
     <Compile Include="离群之刺.cs" />
     <Compile Include="荣耀行刑官.cs" />
     <Compile Include="蒸汽机器人.cs" />
+    <Compile Include="蔚.cs" />
     <Compile Include="虚空恐惧.cs" />
     <Compile Include="虚空掠夺者.cs" />
     <Compile Include="虚空行者.cs" />
@@ -115,6 +118,7 @@
     <Compile Include="赏金猎人.cs" />
     <Compile Include="迷失之牙.cs" />
     <Compile Include="邪恶小法师.cs" />
+    <Compile Include="金克丝.cs" />
     <Compile Include="铁铠冥魂.cs" />
     <Compile Include="铸星龙王.cs" />
     <Compile Include="雷霆咆哮.cs" />
@@ -302,9 +306,7 @@
   <ItemGroup>
     <None Include="Resources\猪女.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Image\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\背景.png" />
   </ItemGroup>
@@ -442,6 +444,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\荆棘之甲.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\卡蜜尔.png" />
+    <None Include="Resources\杰斯.png" />
+    <None Include="Resources\蔚.png" />
+    <None Include="Resources\金克丝.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

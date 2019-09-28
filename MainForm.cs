@@ -119,6 +119,8 @@ namespace YunDingCombination
             m_listHero.Add(new 杰斯());
             m_listHero.Add(new 蔚());
             m_listHero.Add(new 金克丝());
+            m_listHero.Add(new 潘森());
+            m_listHero.Add(new 卡莎());
         }
 
         private void checkBox_CheckedChanged(object sender, EventArgs e)

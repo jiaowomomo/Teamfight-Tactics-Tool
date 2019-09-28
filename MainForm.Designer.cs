@@ -111,6 +111,10 @@
             this.groupBox24 = new System.Windows.Forms.GroupBox();
             this.checkBox45 = new System.Windows.Forms.CheckBox();
             this.checkBox46 = new System.Windows.Forms.CheckBox();
+            this.checkBox47 = new System.Windows.Forms.CheckBox();
+            this.checkBox48 = new System.Windows.Forms.CheckBox();
+            this.checkBox49 = new System.Windows.Forms.CheckBox();
+            this.checkBox50 = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -378,7 +382,7 @@
             this.groupBox7.Controls.Add(this.checkBox13);
             this.groupBox7.Controls.Add(this.checkBox14);
             this.groupBox7.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox7.Location = new System.Drawing.Point(16, 458);
+            this.groupBox7.Location = new System.Drawing.Point(153, 366);
             this.groupBox7.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Padding = new System.Windows.Forms.Padding(4);
@@ -468,7 +472,7 @@
             this.groupBox10.BackColor = System.Drawing.Color.Transparent;
             this.groupBox10.Controls.Add(this.checkBox17);
             this.groupBox10.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox10.Location = new System.Drawing.Point(291, 151);
+            this.groupBox10.Location = new System.Drawing.Point(291, 95);
             this.groupBox10.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox10.Name = "groupBox10";
             this.groupBox10.Padding = new System.Windows.Forms.Padding(4);
@@ -492,13 +496,14 @@
             // groupBox11
             // 
             this.groupBox11.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox11.Controls.Add(this.checkBox47);
             this.groupBox11.Controls.Add(this.checkBox18);
             this.groupBox11.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox11.Location = new System.Drawing.Point(291, 90);
+            this.groupBox11.Location = new System.Drawing.Point(16, 458);
             this.groupBox11.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox11.Name = "groupBox11";
             this.groupBox11.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox11.Size = new System.Drawing.Size(121, 54);
+            this.groupBox11.Size = new System.Drawing.Size(121, 84);
             this.groupBox11.TabIndex = 7;
             this.groupBox11.TabStop = false;
             this.groupBox11.Text = "虚空";
@@ -512,7 +517,7 @@
             this.checkBox18.Name = "checkBox18";
             this.checkBox18.Size = new System.Drawing.Size(79, 28);
             this.checkBox18.TabIndex = 0;
-            this.checkBox18.Text = "3虚空";
+            this.checkBox18.Text = "2虚空";
             this.checkBox18.UseVisualStyleBackColor = false;
             this.checkBox18.CheckedChanged += new System.EventHandler(this.checkBox_CheckedChanged);
             // 
@@ -558,14 +563,15 @@
             // groupBox13
             // 
             this.groupBox13.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox13.Controls.Add(this.checkBox48);
             this.groupBox13.Controls.Add(this.checkBox21);
             this.groupBox13.Controls.Add(this.checkBox22);
             this.groupBox13.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox13.Location = new System.Drawing.Point(153, 457);
+            this.groupBox13.Location = new System.Drawing.Point(427, 674);
             this.groupBox13.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox13.Name = "groupBox13";
             this.groupBox13.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox13.Size = new System.Drawing.Size(121, 84);
+            this.groupBox13.Size = new System.Drawing.Size(121, 111);
             this.groupBox13.TabIndex = 7;
             this.groupBox13.TabStop = false;
             this.groupBox13.Text = "约德尔人";
@@ -597,14 +603,15 @@
             // groupBox14
             // 
             this.groupBox14.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox14.Controls.Add(this.checkBox49);
             this.groupBox14.Controls.Add(this.checkBox23);
             this.groupBox14.Controls.Add(this.checkBox24);
             this.groupBox14.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox14.Location = new System.Drawing.Point(291, 366);
+            this.groupBox14.Location = new System.Drawing.Point(566, 556);
             this.groupBox14.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox14.Name = "groupBox14";
             this.groupBox14.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox14.Size = new System.Drawing.Size(121, 84);
+            this.groupBox14.Size = new System.Drawing.Size(121, 111);
             this.groupBox14.TabIndex = 8;
             this.groupBox14.TabStop = false;
             this.groupBox14.Text = "法师";
@@ -636,14 +643,15 @@
             // groupBox15
             // 
             this.groupBox15.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox15.Controls.Add(this.checkBox50);
             this.groupBox15.Controls.Add(this.checkBox25);
             this.groupBox15.Controls.Add(this.checkBox26);
             this.groupBox15.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox15.Location = new System.Drawing.Point(153, 366);
+            this.groupBox15.Location = new System.Drawing.Point(427, 556);
             this.groupBox15.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox15.Name = "groupBox15";
             this.groupBox15.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox15.Size = new System.Drawing.Size(121, 84);
+            this.groupBox15.Size = new System.Drawing.Size(121, 111);
             this.groupBox15.TabIndex = 9;
             this.groupBox15.TabStop = false;
             this.groupBox15.Text = "刺客";
@@ -781,7 +789,7 @@
             this.groupBox18.BackColor = System.Drawing.Color.Transparent;
             this.groupBox18.Controls.Add(this.checkBox32);
             this.groupBox18.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox18.Location = new System.Drawing.Point(153, 213);
+            this.groupBox18.Location = new System.Drawing.Point(291, 151);
             this.groupBox18.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox18.Name = "groupBox18";
             this.groupBox18.Padding = new System.Windows.Forms.Padding(4);
@@ -938,7 +946,7 @@
             this.groupBox22.Controls.Add(this.checkBox38);
             this.groupBox22.Controls.Add(this.checkBox39);
             this.groupBox22.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox22.Location = new System.Drawing.Point(291, 457);
+            this.groupBox22.Location = new System.Drawing.Point(291, 366);
             this.groupBox22.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox22.Name = "groupBox22";
             this.groupBox22.Padding = new System.Windows.Forms.Padding(4);
@@ -1165,7 +1173,7 @@
             this.groupBox24.Controls.Add(this.checkBox45);
             this.groupBox24.Controls.Add(this.checkBox46);
             this.groupBox24.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox24.Location = new System.Drawing.Point(420, 701);
+            this.groupBox24.Location = new System.Drawing.Point(153, 458);
             this.groupBox24.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox24.Name = "groupBox24";
             this.groupBox24.Padding = new System.Windows.Forms.Padding(4);
@@ -1197,6 +1205,55 @@
             this.checkBox46.Text = "2海克斯";
             this.checkBox46.UseVisualStyleBackColor = true;
             this.checkBox46.CheckedChanged += new System.EventHandler(this.checkBox_CheckedChanged);
+            // 
+            // checkBox47
+            // 
+            this.checkBox47.AutoSize = true;
+            this.checkBox47.BackColor = System.Drawing.Color.Transparent;
+            this.checkBox47.Location = new System.Drawing.Point(8, 53);
+            this.checkBox47.Margin = new System.Windows.Forms.Padding(4);
+            this.checkBox47.Name = "checkBox47";
+            this.checkBox47.Size = new System.Drawing.Size(79, 28);
+            this.checkBox47.TabIndex = 1;
+            this.checkBox47.Text = "4虚空";
+            this.checkBox47.UseVisualStyleBackColor = false;
+            this.checkBox47.CheckedChanged += new System.EventHandler(this.checkBox_CheckedChanged);
+            // 
+            // checkBox48
+            // 
+            this.checkBox48.AutoSize = true;
+            this.checkBox48.Location = new System.Drawing.Point(8, 78);
+            this.checkBox48.Margin = new System.Windows.Forms.Padding(4);
+            this.checkBox48.Name = "checkBox48";
+            this.checkBox48.Size = new System.Drawing.Size(115, 28);
+            this.checkBox48.TabIndex = 2;
+            this.checkBox48.Text = "9约德尔人";
+            this.checkBox48.UseVisualStyleBackColor = true;
+            this.checkBox48.CheckedChanged += new System.EventHandler(this.checkBox_CheckedChanged);
+            // 
+            // checkBox49
+            // 
+            this.checkBox49.AutoSize = true;
+            this.checkBox49.Location = new System.Drawing.Point(8, 78);
+            this.checkBox49.Margin = new System.Windows.Forms.Padding(4);
+            this.checkBox49.Name = "checkBox49";
+            this.checkBox49.Size = new System.Drawing.Size(79, 28);
+            this.checkBox49.TabIndex = 2;
+            this.checkBox49.Text = "9法师";
+            this.checkBox49.UseVisualStyleBackColor = true;
+            this.checkBox49.CheckedChanged += new System.EventHandler(this.checkBox_CheckedChanged);
+            // 
+            // checkBox50
+            // 
+            this.checkBox50.AutoSize = true;
+            this.checkBox50.Location = new System.Drawing.Point(8, 78);
+            this.checkBox50.Margin = new System.Windows.Forms.Padding(4);
+            this.checkBox50.Name = "checkBox50";
+            this.checkBox50.Size = new System.Drawing.Size(79, 28);
+            this.checkBox50.TabIndex = 2;
+            this.checkBox50.Text = "9刺客";
+            this.checkBox50.UseVisualStyleBackColor = true;
+            this.checkBox50.CheckedChanged += new System.EventHandler(this.checkBox_CheckedChanged);
             // 
             // MainForm
             // 
@@ -1383,6 +1440,10 @@
         private System.Windows.Forms.GroupBox groupBox24;
         private System.Windows.Forms.CheckBox checkBox45;
         private System.Windows.Forms.CheckBox checkBox46;
+        private System.Windows.Forms.CheckBox checkBox47;
+        private System.Windows.Forms.CheckBox checkBox48;
+        private System.Windows.Forms.CheckBox checkBox49;
+        private System.Windows.Forms.CheckBox checkBox50;
     }
 }
 

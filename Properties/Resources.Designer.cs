@@ -103,9 +103,29 @@ namespace YunDingCombination.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap 伏击之爪 {
+            get {
+                object obj = ResourceManager.GetObject("伏击之爪", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap 冰女 {
             get {
                 object obj = ResourceManager.GetObject("冰女", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 冰脉护手 {
+            get {
+                object obj = ResourceManager.GetObject("冰脉护手", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,6 +223,16 @@ namespace YunDingCombination.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap 卡莎 {
+            get {
+                object obj = ResourceManager.GetObject("卡莎", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap 卡萨丁 {
             get {
                 object obj = ResourceManager.GetObject("卡萨丁", resourceCulture);
@@ -256,6 +286,16 @@ namespace YunDingCombination.Properties {
         internal static System.Drawing.Bitmap 基克的先驱 {
             get {
                 object obj = ResourceManager.GetObject("基克的先驱", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 复用型十字弩 {
+            get {
+                object obj = ResourceManager.GetObject("复用型十字弩", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -363,6 +403,16 @@ namespace YunDingCombination.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap 巨人杀手 {
+            get {
+                object obj = ResourceManager.GetObject("巨人杀手", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap 巨人腰带 {
             get {
                 object obj = ResourceManager.GetObject("巨人腰带", resourceCulture);
@@ -436,6 +486,16 @@ namespace YunDingCombination.Properties {
         internal static System.Drawing.Bitmap 慎 {
             get {
                 object obj = ResourceManager.GetObject("慎", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 拳套 {
+            get {
+                object obj = ResourceManager.GetObject("拳套", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -553,9 +613,39 @@ namespace YunDingCombination.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap 正义之手 {
+            get {
+                object obj = ResourceManager.GetObject("正义之手", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 死亡之刃 {
+            get {
+                object obj = ResourceManager.GetObject("死亡之刃", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap 死歌 {
             get {
                 object obj = ResourceManager.GetObject("死歌", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 水银 {
+            get {
+                object obj = ResourceManager.GetObject("水银", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -596,6 +686,16 @@ namespace YunDingCombination.Properties {
         internal static System.Drawing.Bitmap 海克斯科技枪刃 {
             get {
                 object obj = ResourceManager.GetObject("海克斯科技枪刃", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 潘森 {
+            get {
+                object obj = ResourceManager.GetObject("潘森", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -703,6 +803,16 @@ namespace YunDingCombination.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap 珠光护手 {
+            get {
+                object obj = ResourceManager.GetObject("珠光护手", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap 璐璐 {
             get {
                 object obj = ResourceManager.GetObject("璐璐", resourceCulture);
@@ -776,6 +886,16 @@ namespace YunDingCombination.Properties {
         internal static System.Drawing.Bitmap 离子火花 {
             get {
                 object obj = ResourceManager.GetObject("离子火花", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 窃贼手套 {
+            get {
+                object obj = ResourceManager.GetObject("窃贼手套", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -946,6 +1066,16 @@ namespace YunDingCombination.Properties {
         internal static System.Drawing.Bitmap 负极斗篷 {
             get {
                 object obj = ResourceManager.GetObject("负极斗篷", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 连指手套 {
+            get {
+                object obj = ResourceManager.GetObject("连指手套", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

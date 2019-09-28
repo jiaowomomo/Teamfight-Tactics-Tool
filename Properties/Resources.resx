@@ -130,8 +130,14 @@
   <data name="亚索" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\亚索.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="伏击之爪" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\伏击之爪.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="冰女" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\冰女.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="冰脉护手" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\冰脉护手.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="冰霜之心" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\冰霜之心.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,6 +166,9 @@
   <data name="卡牌" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\卡牌.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="卡莎" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\卡莎.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="卡萨丁" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\卡萨丁.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -177,6 +186,9 @@
   </data>
   <data name="基克的先驱" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\基克的先驱.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="复用型十字弩" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\复用型十字弩.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="大虫" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\大虫.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -208,6 +220,9 @@
   <data name="小炮" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\小炮.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="巨人杀手" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\巨人杀手.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="巨人腰带" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\巨人腰带.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -231,6 +246,9 @@
   </data>
   <data name="慎" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\慎.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="拳套" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\拳套.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="挖掘机" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\挖掘机.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -265,8 +283,17 @@
   <data name="杰斯" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\杰斯.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="正义之手" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\正义之手.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="死亡之刃" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\死亡之刃.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="死歌" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\死歌.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="水银" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\水银.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="沉默之刃" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\沉默之刃.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -279,6 +306,9 @@
   </data>
   <data name="海克斯科技枪刃" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\海克斯科技枪刃.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="潘森" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\潘森.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="火男" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\火男.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -310,6 +340,9 @@
   <data name="猪女" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\猪女.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="珠光护手" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\珠光护手.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="璐璐" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\璐璐.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -333,6 +366,9 @@
   </data>
   <data name="离子火花" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\离子火花.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="窃贼手套" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\窃贼手套.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="纳尔" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\纳尔.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -384,6 +420,9 @@
   </data>
   <data name="负极斗篷" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\负极斗篷.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="连指手套" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\连指手套.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="金克丝" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\金克丝.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
